@@ -43,6 +43,7 @@ public class EmployeeService
     }
 
     public void deleteEmployee(Long id) {
+        System.out.println("The value of id is: " + id);
         employeeRepo.deleteEmployeeById(id);
     }
 }
